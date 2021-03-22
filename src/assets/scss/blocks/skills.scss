@@ -1,0 +1,84 @@
+.wave-bg {
+    position: relative;
+}
+.mobile-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+    display: none;
+    @include breakpoint($m-768) {
+        display: block;
+    }
+}
+.zigzag {
+    width: 105px;
+    position: absolute;
+    bottom: 5px;
+    @include breakpoint($m-768) {
+        display: none;
+    }
+}
+.st0 {
+    fill: none;
+}
+.wave-bg .zigzag svg:first-child polyline {
+    stroke: #efefef;
+}
+.wave-bg .zigzag svg:last-child polyline {
+    stroke: #3333ff;
+}
+.st1 {
+    fill: none;
+    stroke: #F95231;
+    stroke-width: 7;
+    stroke-miterlimit: 10;
+}
+.section-sidebar {
+    padding-bottom: 50px;
+}
+.section-sidebar h2 {
+    margin-bottom: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    white-space: normal;
+}
+.advantages-box {
+    margin-bottom: 0px;
+}
+.advantages-box h4 {
+    margin-bottom: 2px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
+.about-row .about-tittle {
+    float: left;
+    margin-right: 10px;
+}
+.about-row .about-info {
+    padding: 2px 0;
+    opacity: 0.8;
+}
+.about-row .about-info + p {
+    opacity: 0.8;
+}
+.about-row .opacity-box {
+    margin-top: 10px;
+    font-style: italic;
+}

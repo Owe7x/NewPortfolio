@@ -1,0 +1,41 @@
+@import "vars";
+@import "vendor/reset";
+@import "mixins";
+@import 'bootstrap/scss/bootstrap';
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.56;
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+    color: #252525;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/hello.scss";
+@import "blocks/skills.scss";
+@import "blocks/portfolio.scss";
+
+
